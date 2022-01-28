@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body, p, h1, h2, span, button, textarea {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #F3F5FC;
+
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
+
+/* css */
+
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-bottom: 80px;
+}
+
+.principal {
+  margin: 2.5rem 5rem 4.5rem 5.25rem;
+  flex: 2 0 300px;
+}
+
+#texto-principal {
+  height: 582px;
+  width: 100%;
+  padding-left: 156px;
+  border: none;
+  background: none;
+  color: #0A3871;
+  font-size: 2rem;
+  line-height: 3rem;
+  overflow: hidden;
+  
+  
+}
+
+#texto-principal::placeholder {
+  color: #0A3871;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.principal-inferior {
+  align-self: baseline;
+  padding-left: 156px;
+}
+
+.aviso {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+
+.aviso span {
+  padding-left: 8px;
+}
+
+.criptografar, .descriptografar, .copiar {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px; 
+  font-size: 1rem;
+  line-height: 1.21rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.criptografar {
+  margin-right: 24px;
+  border: none;
+  background-color: #0A3871;
+  color: #fff;
+}
+
+.descriptografar {
+  border: 1px solid #0A3871;
+  background-color: #D8DFE8;
+  color: #0A3871;
+}
+
+
+
+.resposta {
+  margin: 2.5rem 2.5rem 2.5rem 0;
+  flex: 1 0 ;
+  position: relative;
+  
+}
+
+#texto-resposta {
+  width: 400px;
+  max-width: 100%;
+  height: 100%;
+  padding: 32px 32px 131px 32px;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #495057;
+  overflow: hidden;
+}
+
+#sobre-mensagem {
+  position: absolute;
+  top: 246px;
+  left: 7%;
+
+}
+
+#sobre-mensagem h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #343A40;
+  width: 336px;
+}
+
+#sobre-mensagem p {
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.8rem;
+text-align: center;
+color: #495057;
+width: 336px;
+margin-top: 16px;
+
+}
+
+.copiar {
+  background: none;
+  position: absolute;
+  bottom: 32px;
+  left: 7%;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  display: none;
+}
+
+.remover {
+  display: none;
+}
+
+.adicionar {
+  display: inline-block;
+}
